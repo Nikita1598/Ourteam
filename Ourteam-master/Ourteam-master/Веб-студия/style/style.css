@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+}
+
+#firstblock {
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/Landscape.jpg");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	background-position: 80%;
+}
+
+#mainmenu {
+	position: absolute;
+	width: 100%;
+	height: 9%;
+}
+
+#logo {
+	width: 15%;
+	height: 100%;
+	font-size: 250%;
+	color: white;
+	display: inline-block;
+	border: 2px solid white;
+	margin: 1%;
+	padding: 1% 0% 0% 4%;
+}
+
+.menuitem {
+	display: inline-block;
+	font-size: 180%;
+	color: white;
+	padding: 0% 3% 0% 3%;
+}
+
+.menuitem:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#mainbutton {
+	position: absolute;
+	padding: 0.3% 0% 0% 1.5%;
+	top: 78%;
+	left: 43%;
+	width: 12%;
+	height: 5%;
+	border: 2px solid white;
+	border-radius: 20px;
+	color: white;
+	font-size: 150%;
+}
+
+#maintext {
+	position: absolute;
+	font-size: 450%;
+	color: white;
+	top: 40%;
+	left: 12%;
+}
+
+#mainbutton:hover {
+	background: white;
+	color: black;
+	cursor: pointer;
+}
+
+#secondblock {
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/Tiokyo.gif");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	background-position: 80%;
+	background-attachment: fixed;
+}
